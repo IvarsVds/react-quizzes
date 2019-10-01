@@ -1,0 +1,12 @@
+.questionBox {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .questionBox {
+        grid-template-columns: auto;
+    }
+}
